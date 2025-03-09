@@ -95,8 +95,11 @@ print(d_copy)
 d_copy['a'].append(5)
 print(d)
 print(d_copy)
-print('-'*40)
+print('-'*80)
 
-
-
+d = dict(a=1, b=2)
+print(d)
+d= {3.14: 'pi', 2: 'even'}
+print(d)
+#d = dict(2='even')
 
