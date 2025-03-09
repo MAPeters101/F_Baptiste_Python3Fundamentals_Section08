@@ -41,6 +41,10 @@ print(data)
 print(data_copy)
 print('-'*80)
 
-
+from copy import deepcopy
+data_copy = deepcopy(data)
+print(data)
+print(data_copy)
+print(data is data_copy)
 
 
