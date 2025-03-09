@@ -34,6 +34,15 @@ t = (1,2,3,4)
 print(hash(t))
 t = ([1,2], 3, 4)
 #print(hash(t))
+print()
+
+d = {
+    (0,0): 'origin',
+    (1,0): 'unit-x',
+    (0,1): 'unit-y'
+}
+print(d)
+print(d[(0,0)])
 
 
 
