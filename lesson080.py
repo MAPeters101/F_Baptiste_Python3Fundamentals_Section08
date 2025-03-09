@@ -43,7 +43,16 @@ d = {
 }
 print(d)
 print(d[(0,0)])
+print('-'*80)
 
+d = {'a':1, 'b':2, 'c':3}
+print(d)
+print(id(d))
+del d['a']
+print(d)
+print(id(d))
+#print(d['x'])
+#del d['x']
 
 
 
