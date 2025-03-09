@@ -118,4 +118,21 @@ print(d)
 
 d = dict.fromkeys('python', 1)
 print(d)
+print('='*80)
+
+
+d = dict.fromkeys(['a','a'], 100)
+print(d)
+
+symbols = ['AAPL', 'MSFT', 'AAPL', 'MSFT']
+d = dict.fromkeys(symbols, 0)
+print(d)
+print(list(d))
+
+
+
+
+
+
+
 
