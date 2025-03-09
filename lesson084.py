@@ -46,5 +46,57 @@ data_copy = deepcopy(data)
 print(data)
 print(data_copy)
 print(data is data_copy)
+print('-'*80)
+
+
+d = {
+    'a': [1,2,3],
+    'b': {
+        'x': 0,
+        'y': 0
+    }
+}
+
+d_copy = d.copy()
+print(d_copy is d)
+d['b'] = 100
+print(d)
+print(d_copy)
+print('-'*40)
+
+d = {
+    'a': [1,2,3],
+    'b': {
+        'x': 0,
+        'y': 0
+    }
+}
+d_copy = d.copy()
+print(d_copy is d)
+print(d)
+print(d_copy)
+d['a'].append(4)
+print(d)
+print(d_copy)
+print('-'*40)
+
+
+d = {
+    'a': [1,2,3,4],
+    'b': {
+        'x': 0,
+        'y': 0
+    }
+}
+d_copy = deepcopy(d)
+print(d_copy is d)
+print(d)
+print(d_copy)
+d_copy['a'].append(5)
+print(d)
+print(d_copy)
+print('-'*40)
+
+
 
 
