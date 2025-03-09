@@ -13,4 +13,11 @@ print()
 
 person['month_born'] = 'March'
 print(person)
+print()
+
+
+d = {3.14: 'pi', 2: 'even', 'prime':7}
+print(d)
+print(d[3.14])
+print(d[2])
 
