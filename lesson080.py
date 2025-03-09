@@ -53,6 +53,18 @@ print(d)
 print(id(d))
 #print(d['x'])
 #del d['x']
+print('-'*80)
+
+
+print(globals())
+print(type(globals()))
+print(globals()['person'])
+p = globals()['person']
+print(p)
+print(p is person)
+
+
+
 
 
 
