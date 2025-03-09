@@ -23,4 +23,12 @@ for t in d.items():
     print(t)
 print()
 
+for key, value in d.items():
+    print(key, value)
+print()
+
+for key, value in d.items():
+    print(f'd[{key}] = {value}')
+print()
+
 
