@@ -28,7 +28,13 @@ l = [1, 2, 3]
 print(hash(100))
 print(hash(3.14))
 #print(hash(l))
-print(hash(1))
+print()
+
+t = (1,2,3,4)
+print(hash(t))
+t = ([1,2], 3, 4)
+#print(hash(t))
+
 
 
 
