@@ -128,10 +128,10 @@ symbols = ['AAPL', 'MSFT', 'AAPL', 'MSFT']
 d = dict.fromkeys(symbols, 0)
 print(d)
 print(list(d))
+print('-'*80)
 
-
-
-
+d = dict.fromkeys('Python is an awesome language!', 0)
+print(d)
 
 
 
