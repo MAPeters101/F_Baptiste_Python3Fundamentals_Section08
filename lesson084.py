@@ -132,7 +132,14 @@ print('-'*80)
 
 d = dict.fromkeys('Python is an awesome language!', 0)
 print(d)
+print('-'*80)
 
+
+d1 ={}
+d2 = dict()
+print(d1)
+print(d2)
+print('-'*80)
 
 
 
