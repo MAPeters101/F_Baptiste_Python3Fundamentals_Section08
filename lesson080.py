@@ -9,5 +9,8 @@ person = {
 print(person['year_born'])
 person['year_born'] = 1943
 print(person)
+print()
 
+person['month_born'] = 'March'
+print(person)
 
