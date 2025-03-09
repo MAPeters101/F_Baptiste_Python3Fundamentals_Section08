@@ -32,6 +32,14 @@ print(len(data))
 print('-'*80)
 
 
+data_copy = data.copy()
+print(data)
+print(data_copy)
+print(data is data_copy)
+data_copy['x'] = 100
+print(data)
+print(data_copy)
+print('-'*80)
 
 
 
