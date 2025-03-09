@@ -102,4 +102,20 @@ print(d)
 d= {3.14: 'pi', 2: 'even'}
 print(d)
 #d = dict(2='even')
+print('-'*80)
+
+
+d = {
+    'open': 0,
+    'high': 0,
+    'low': 0,
+    'close': 0,
+}
+print(type(d))
+
+d = dict.fromkeys(['open','high','low','close'], 10)
+print(d)
+
+d = dict.fromkeys('python', 1)
+print(d)
 
