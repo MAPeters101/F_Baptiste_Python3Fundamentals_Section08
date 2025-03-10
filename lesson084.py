@@ -180,4 +180,33 @@ for transaction in transactions:
         net_sales[item] = quantity
 
 print(net_sales)
+print('='*80)
+
+
+
+total_sold = {}
+for transaction in transactions:
+    item = transaction['item']
+    is_sale = True if transaction['trans_type'] == 'sale' else False
+    quantity = transaction['quantity']
+
+    if is_sale:
+        if not item in total_sold:
+            total_sold[item] = 0
+        total_sold[item] += quantity
+
+print(total_sold)
+
+total_sold = {}
+print(total_sold.get('widget', 0))
+
+print('='*80)
+
+
+
+
+
+
+
+
 
