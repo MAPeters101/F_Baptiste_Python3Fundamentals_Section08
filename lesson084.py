@@ -226,10 +226,41 @@ for transaction in transactions:
     net_sales[item] = net_sales.get(item, 0) + quantity
 
 print(net_sales)
+print('='*80)
 
 
+d1 = {'a': 1, 'b': 2}
+d2 = {'c': 3, 'd': 4}
+
+print(d1.update(d2))
+print(d1)
+print(d2)
+print()
+
+d1 = {'a': 1, 'b': 2}
+d2 = {'c': 3, 'd': 4}
+
+print(d2.update(d1))
+print(d1)
+print(d2)
+print('='*80)
 
 
+d1 = {'a': 1, 'b': 2, 'c':100}
+d2 = {'c': 3, 'd': 4}
+
+print(d1.update(d2))
+print(d1)
+print(d2)
+print()
+
+d1 = {'a': 1, 'b': 2, 'c':100}
+d2 = {'c': 3, 'd': 4}
+
+print(d2.update(d1))
+print(d1)
+print(d2)
+print()
 
 
 
